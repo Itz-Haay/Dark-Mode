@@ -33,6 +33,26 @@ html {
     cursor: pointer;
 }
 
+.toggle-info {
+    border-radius: 3rem;
+    padding: 1rem .5rem;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    top: 7rem;
+    right: 7rem;
+    position: absolute;
+    font-size: 2rem;
+    background-color: #464646;
+    color: #eee8e1;
+    cursor: pointer;
+}
+
+.container.dark .toggle-info {
+    background-color: #eee8e1;
+    color: #262626;
+}
+
 .container.dark .toggle {
     background-color: #464646;
 }
